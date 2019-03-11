@@ -11,8 +11,7 @@ Wikipedia dump data</br>
 Parse the query.</br>
 Convert words into wordIDs</br>Tokenizing the text data</br>
 
-Seek to the start of the doclist </br>
-in the short barrel for every word.</br>
+Seek to the start of the doclist in the short barrel for every word.</br>
 Scan through the doclists until there is a document that matches all the search terms.</br>
 Compute the rank of that document for the query.</br>
 Sort the documents that have matched by rank and return the top k.</br>
